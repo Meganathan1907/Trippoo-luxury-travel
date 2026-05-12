@@ -2,6 +2,14 @@
 
 A premium modern travel booking website built with Next.js, Tailwind CSS, and Framer Motion.
 
+## 📸 Screenshots
+
+### 🏠 Home Page
+
+<p align="center">
+  <img src="./public/trippo-hero.png" alt="Voyara Preview" width="100%" />
+</p>
+
 ---
 
 ## 🌍 Features
