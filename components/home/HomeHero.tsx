@@ -132,7 +132,7 @@ export default function HomeHero() {
           <Link href="/packages" className="btn-primary text-base">
             View Packages <ArrowRight size={18} />
           </Link>
-          <button className="flex items-center gap-3 px-7 py-4 rounded-full bg-white/15 backdrop-blur-sm border border-white/30 text-white font-semibold hover:bg-white/25 transition-all text-base">
+          {/* <button className="flex items-center gap-3 px-7 py-4 rounded-full bg-white/15 backdrop-blur-sm border border-white/30 text-white font-semibold hover:bg-white/25 transition-all text-base">
             <span className="w-8 h-8 bg-white rounded-full flex items-center justify-center">
               <Play
                 size={12}
@@ -141,11 +141,12 @@ export default function HomeHero() {
               />
             </span>
             Watch Film
-          </button>
+          </button> */}
         </motion.div>
 
         {/* Search bar */}
-        <motion.div
+      
+        {/* <motion.div
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.8 }}
@@ -163,7 +164,7 @@ export default function HomeHero() {
               ))}
             </div>
             <div className="grid grid-cols-2 md:grid-cols-4 gap-2">
-              {/* Location */}
+
               <div className="flex flex-col px-4 py-3 bg-white rounded-xl border border-gray-100">
                 <span className="text-[10px] font-semibold text-gray-400 uppercase tracking-wider mb-1">
                   Location
@@ -180,7 +181,6 @@ export default function HomeHero() {
                 </div>
               </div>
 
-              {/* Check In */}
               <div className="flex flex-col px-4 py-3 bg-white rounded-xl border border-gray-100">
                 <span className="text-[10px] font-semibold text-gray-400 uppercase tracking-wider mb-1">
                   Check In
@@ -196,7 +196,6 @@ export default function HomeHero() {
                 </div>
               </div>
 
-              {/* Check Out */}
               <div className="flex flex-col px-4 py-3 bg-white rounded-xl border border-gray-100">
                 <span className="text-[10px] font-semibold text-gray-400 uppercase tracking-wider mb-1">
                   Check Out
@@ -212,7 +211,6 @@ export default function HomeHero() {
                 </div>
               </div>
 
-              {/* Travelers */}
               <div className="flex flex-col px-4 py-3 bg-white rounded-xl border border-gray-100">
                 <span className="text-[10px] font-semibold text-gray-400 uppercase tracking-wider mb-1">
                   Travelers
@@ -239,7 +237,9 @@ export default function HomeHero() {
               </Link>
             </div>
           </div>
-        </motion.div>
+        </motion.div> */}
+
+
       </motion.div>
 
       {/* Image switcher dots */}
