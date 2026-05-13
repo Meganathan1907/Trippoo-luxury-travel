@@ -68,7 +68,7 @@ export default function Navbar() {
               } hover:text-coral`}
             >
               <Phone size={14} />
-              +1 (880) 174
+             +91 9524723017
             </a>
             <Link href="/packages" className="btn-primary text-sm" style={{ padding: "10px 22px" }}>
               Book Now

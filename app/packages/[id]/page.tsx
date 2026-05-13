@@ -263,13 +263,13 @@ export default function PackageDetail() {
               {/* Price card */}
               <div className="bg-white rounded-3xl border-2 border-gray-100 p-6 shadow-lg">
                 <div className="flex items-baseline gap-2 mb-1">
-                  <span className="text-gray-400 text-sm line-through">${pkg.originalPrice}</span>
+                  <span className="text-gray-400 text-sm line-through">₹{pkg.originalPrice}</span>
                   <span className="bg-green-100 text-green-700 text-xs font-semibold px-2 py-0.5 rounded-full">
-                    Save ${pkg.originalPrice - pkg.price}
+                    Save ₹{pkg.originalPrice - pkg.price}
                   </span>
                 </div>
                 <div className="flex items-baseline gap-1 mb-5">
-                  <span className="font-display text-4xl font-bold text-charcoal">${pkg.price}</span>
+                  <span className="font-display text-4xl font-bold text-charcoal">₹{pkg.price}</span>
                   <span className="text-gray-400">/person</span>
                 </div>
 
@@ -301,7 +301,7 @@ export default function PackageDetail() {
                 {/* Total */}
                 <div className="flex items-center justify-between p-4 bg-sand rounded-2xl mb-5">
                   <span className="text-sm font-medium text-gray-500">Total</span>
-                  <span className="font-display text-2xl font-bold text-charcoal">${totalPrice.toLocaleString()}</span>
+                  <span className="font-display text-2xl font-bold text-charcoal">₹{totalPrice.toLocaleString()}</span>
                 </div>
 
                 <Link
@@ -339,8 +339,8 @@ export default function PackageDetail() {
                 <p className="font-semibold mb-1">Need help deciding?</p>
                 <p className="text-white/60 text-xs mb-4">Talk to our travel experts for personalised advice.</p>
                 <div className="space-y-2">
-                  <a href="tel:+18801746030416" className="flex items-center gap-2 text-sm text-white/80 hover:text-white">
-                    <Phone size={13} /> +1 (880) 174-6030-416
+                  <a href="tel:+919524723017" className="flex items-center gap-2 text-sm text-white/80 hover:text-white">
+                    <Phone size={13} /> +91 9524723017
                   </a>
                   <a href="mailto:hello@trippoo.com" className="flex items-center gap-2 text-sm text-white/80 hover:text-white">
                     <Mail size={13} /> hello@trippoo.com
@@ -365,7 +365,7 @@ export default function PackageDetail() {
                     <h4 className="font-display font-bold text-charcoal group-hover:text-coral transition-colors mb-1">{p.title}</h4>
                     <p className="text-sm text-gray-400 flex items-center gap-1"><MapPin size={12} />{p.location}</p>
                     <div className="flex items-center justify-between mt-3">
-                      <span className="font-bold text-charcoal">${p.price}<span className="text-xs text-gray-400">/person</span></span>
+                      <span className="font-bold text-charcoal">₹{p.price}<span className="text-xs text-gray-400">/person</span></span>
                       <ArrowRight size={14} className="text-coral" />
                     </div>
                   </div>

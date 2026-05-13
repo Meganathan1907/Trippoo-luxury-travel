@@ -150,7 +150,7 @@ export default function BtnCta() {
             onClick={() => setOpen(!open)}
             whileTap={{ scale: 0.9 }}
             className={`w-14 h-14 rounded-full shadow-2xl flex items-center justify-center transition-all duration-300 ${
-              open ? "bg-red-500 rotate-45" : "bg-orange-500"
+              open ? "bg-red-500 rotate-45" : "bg-coral"
             } text-white`}
           >
             {open ? <X size={22} /> : <Plus size={22} />}

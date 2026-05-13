@@ -13,7 +13,7 @@ export const faqs: FaqItem[] = [
   { category: "Payments", question: "Are there any hidden fees?", answer: "Never. What you see at checkout is what you pay. We're transparent about exactly what's included and excluded on every package page. Service fees and applicable taxes are shown before you confirm." },
   { category: "Cancellation", question: "What is your cancellation policy?", answer: "Cancellations made 60+ days before departure receive a full refund minus a 5% processing fee. 30–59 days: 50% refund. 15–29 days: 25% refund. Under 15 days: no refund. We strongly recommend purchasing travel insurance." },
   { category: "Cancellation", question: "What if Trippoo cancels my trip?", answer: "In the rare event we cancel a trip (due to safety concerns, natural disasters, or insufficient bookings), you'll receive a full refund within 5 business days or the option to rebook any package at the same value." },
-  { category: "Cancellation", question: "Can I reschedule instead of cancelling?", answer: "Yes — rescheduling is free if done 45+ days before departure. Closer than 45 days, a rescheduling fee of $50 per person applies. You can reschedule up to 12 months from your original travel date." },
+  { category: "Cancellation", question: "Can I reschedule instead of cancelling?", answer: "Yes — rescheduling is free if done 45+ days before departure. Closer than 45 days, a rescheduling fee of ₹50 per person applies. You can reschedule up to 12 months from your original travel date." },
   { category: "During Your Trip", question: "Is there 24/7 support during my trip?", answer: "Yes. Every traveller gets a dedicated WhatsApp support number before departure. Our on-ground team and global support desk are available 24/7 throughout your trip for any emergency or question." },
   { category: "During Your Trip", question: "What happens if there's a medical emergency?", answer: "All our guides are certified in wilderness first aid. We have emergency evacuation protocols in place for every destination. We strongly recommend comprehensive travel insurance that includes medical evacuation cover." },
   { category: "During Your Trip", question: "Are your guides certified and vetted?", answer: "Every Trippoo guide is locally certified, background-checked, and has completed our internal training programme. Lead guides on adventure expeditions hold internationally recognised certifications (UIAGM, PADI, etc.)." },
@@ -26,7 +26,7 @@ export const supportCategories = ["All", "Booking", "Payments", "Cancellation", 
 export const contactOptions = [
   { icon: "💬", title: "Live Chat", desc: "Chat with our team right now", sub: "Average response: 2 minutes", action: "Start Chat", available: true },
   { icon: "📧", title: "Email Us", desc: "hello@trippoo.com", sub: "Reply within 4 hours", action: "Send Email", available: true },
-  { icon: "📞", title: "Call Us", desc: "+1 (880) 174-6030-416", sub: "Mon–Fri, 9am–9pm IST", action: "Call Now", available: true },
+  { icon: "📞", title: "Call Us", desc: "+91 9524723017", sub: "Mon–Fri, 9am–9pm IST", action: "Call Now", available: true },
   { icon: "🗓️", title: "Book a Call", desc: "Schedule a 30-min session", sub: "With an adventure specialist", action: "Book Slot", available: true },
 ];
 

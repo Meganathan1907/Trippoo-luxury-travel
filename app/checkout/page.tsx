@@ -112,7 +112,7 @@ function CheckoutInner() {
 
   return (
     <main className="min-h-screen bg-cream">
-      <Navbar />
+     
 
       <div className="pt-28 pb-24 max-w-6xl mx-auto px-6">
         {/* Breadcrumb */}
@@ -254,10 +254,10 @@ function CheckoutInner() {
                     </div>
                     {form.specialReqs && (
                       <div className="bg-amber-50 rounded-xl p-4 mb-6 flex gap-3">
-                        <AlertCircle size={16} className="text-amber-500 shrink-0 mt-0.5" />
+                        <AlertCircle size={16} className="text-coral shrink-0 mt-0.5" />
                         <div>
-                          <p className="text-xs font-semibold text-amber-700 mb-1">Special Requirements</p>
-                          <p className="text-sm text-amber-600">{form.specialReqs}</p>
+                          <p className="text-xs font-semibold text-coral mb-1">Special Requirements</p>
+                          <p className="text-sm text-charcoal">{form.specialReqs}</p>
                         </div>
                       </div>
                     )}
@@ -397,7 +397,7 @@ function CheckoutInner() {
                       ← Back
                     </button>
                     <button onClick={handlePay} className="btn-primary flex-1 justify-center text-base">
-                      <Lock size={16} /> Pay ${grandTotal.toLocaleString()} Securely
+                      <Lock size={16} /> Pay ₹{grandTotal.toLocaleString()} Securely
                     </button>
                   </div>
                 </motion.div>
@@ -424,22 +424,22 @@ function CheckoutInner() {
 
               <div className="border-t border-gray-100 pt-4 space-y-3 mb-4">
                 <div className="flex justify-between text-sm">
-                  <span className="text-gray-500">${pkg.price} × {travelers} traveler{travelers > 1 ? "s" : ""}</span>
-                  <span className="font-medium">${total.toLocaleString()}</span>
+                  <span className="text-gray-500">₹{pkg.price} × {travelers} traveler{travelers > 1 ? "s" : ""}</span>
+                  <span className="font-medium">₹{total.toLocaleString()}</span>
                 </div>
                 <div className="flex justify-between text-sm">
                   <span className="text-gray-500">Taxes (8%)</span>
-                  <span className="font-medium">${tax}</span>
+                  <span className="font-medium">₹{tax}  </span>
                 </div>
                 <div className="flex justify-between text-sm">
                   <span className="text-gray-500">Service fee</span>
-                  <span className="font-medium">${serviceFee}</span>
+                  <span className="font-medium">₹{serviceFee}</span>
                 </div>
               </div>
 
               <div className="border-t-2 border-gray-100 pt-4 flex justify-between items-baseline mb-5">
                 <span className="font-bold text-charcoal">Total</span>
-                <span className="font-display text-2xl font-bold text-coral">${grandTotal.toLocaleString()}</span>
+                <span className="font-display text-2xl font-bold text-coral">₹{grandTotal.toLocaleString()}</span>
               </div>
 
               <div className="space-y-2">
@@ -456,7 +456,7 @@ function CheckoutInner() {
 
               <div className="mt-5 p-4 bg-sand rounded-2xl">
                 <p className="text-xs font-semibold text-charcoal mb-1">🎁 Member Discount Applied</p>
-                <p className="text-xs text-gray-500">You saved <strong className="text-coral">${pkg.originalPrice - pkg.price}</strong> per person on this package!</p>
+                <p className="text-xs text-gray-500">You saved <strong className="text-coral">₹{pkg.originalPrice - pkg.price}</strong> per person on this package!</p>
               </div>
             </div>
           </div>

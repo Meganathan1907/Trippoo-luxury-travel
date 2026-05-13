@@ -4,12 +4,8 @@ import Home from '@/components/ui/Home'
 
 export default function page() {
   return (
-    <div>
      <main>
       <Home/>
-      <About/>
-      <Blog/>
      </main>
-    </div>
   )
 }
